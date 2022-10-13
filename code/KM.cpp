@@ -1,4 +1,5 @@
 //perfect match,return max value
+//O(N^3) N<=1000
 struct KM{   //找最小值時，代入-w
   static const int MXN = 2001; // 1-based
   static const ll INF = 0x3f3f3f3f;
