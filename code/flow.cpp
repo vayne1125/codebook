@@ -1,3 +1,5 @@
+//2分圖: ElgV
+//其他: 10000
 #define PB push_back
 #define SZ(x) (int)x.size()
 using namespace std;
