@@ -1,6 +1,6 @@
 #define PB push_back
-#define MXN 10000
-#define FZ(x) memset(x,0,sizeof(0))
+#define MXN 100001
+#define FZ(x) memset(x,0,sizeof(x))
 struct Scc {
 	int n, nScc, vst[MXN], bln[MXN]; // 最後每個點所屬的連通分量存在bln陣列
 	vector<int> E[MXN], rE[MXN], vec;
